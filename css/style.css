@@ -1,0 +1,42 @@
+/*Geral*/
+	/*
+		amarelo: #fec63e
+	*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+
+.header {
+	width: 100%;
+	background-color: #fec63e;
+	padding: 10px 0;
+	position: fixed;
+	top: 0; 
+}
+
+.header-menu {
+	text-align: right;
+}
+
+.header-menu ul li{
+	display: inline-block;
+	margin-left: 15px;
+	padding: 20px 0;
+}
+
+.header-menu ul a {
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: .1em;
+	padding: 10px 0; /* p/ aumentar a area de click*/
+}
+
+.header-menu ul a:hover {
+	color: #fff;
+}
+/*Footer*/
