@@ -1,7 +1,6 @@
-/*Geral*/
-	/*
-		amarelo: #fec63e
-	*/
+/*Geral start*/
+	/* amarelo: #fec63e	*/
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #000;
@@ -33,15 +32,20 @@ p {
 	border-color: #fff;
 }
 
-h2 {
+.btn-preto:hover {
+	color: #000;
+	border-color: #000;
+}
+
+.subtitulo {
 	font-size: 24px;
 	letter-spacing: .1em;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin: 40px 0;
+	margin-bottom: 40px;
 }
 
-h2:after {
+.subtitulo:after {
 	content: "";
 	display: block; 
 	background-color: #000;
@@ -49,9 +53,9 @@ h2:after {
 	width: 70px;
 	margin: 4px auto;
 }
+/*Geral-end*/
 
-/*Header*/
-
+/*Header-start*/
 .header {
 	width: 100%;
 	background-color: #fec63e;
@@ -84,6 +88,8 @@ h2:after {
 .header-menu ul a:hover {
 	color: #fff;
 }
+/*Header-end*/
+
 /*Intro Home*/
 .home {
 	margin-top: 86px;
@@ -139,18 +145,57 @@ h2:after {
 }
 */
 
-/*Produtos*/
-
+/*Produtos-home-start*/
 .produtos {
 	text-align: center;
 	height: 600px;
 	width: 100%;
+	padding: 60px 0;
+}
+
+.produtos-lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 25px;
+	margin: 15px 0;
+}
+
+.produtos-lista li h3:after {
+	content: "";
+	display: block; 
+	background-color: #000;
+	height: 3px;
+	width: 70px;
+	margin: 4px auto;
+}
+
+.produtos-lista li p {
+	padding:0 20px 20px 20px;
+}
+
+.produtos-icon {
+	height: 200px;
+	background-color: #000;
+	padding: 25px;
 }
 
 .passeio, .esporte, .retro {
 	height: 320px;
-	background-color: #000;
+	background-color: #fec63e;
 }
 
+.call-to-action {
+	text-align: center;
+	padding: 40px;
+	clear: both;
+}
+
+.call-to-action p {
+	margin-bottom: 10px;
+}
+
+/*Produtos-home-end*/
 
 /*Footer*/
