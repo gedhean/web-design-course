@@ -53,6 +53,10 @@ p {
 	width: 70px;
 	margin: 4px auto;
 }
+
+.subtitulo-amarelo:after {
+	background-color: #fec63e;
+}
 /*Geral-end*/
 
 /*Header-start*/
@@ -189,13 +193,31 @@ p {
 .call-to-action {
 	text-align: center;
 	padding: 40px;
+	/*padding-bottom: 60px;*/
 	clear: both;
 }
 
 .call-to-action p {
 	margin-bottom: 10px;
 }
-
 /*Produtos-home-end*/
+
+/*Portfolio-home-start*/
+.portfolio {
+	text-align: center;
+	background-color: #000;
+	color: #fec63e;
+	width: 100%;
+	padding-top: 60px;
+}
+
+.portfolio ul li:last-child {
+	margin-top: 20px;
+}
+
+.portfolio .call-to-action p {
+	color: #fff;
+}
+/*Portfolio-home-end*/
 
 /*Footer*/
