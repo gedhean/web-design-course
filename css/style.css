@@ -265,5 +265,85 @@ img {
 	margin: 4px auto;
 }
 /*Qualidade-home-end*/
+/*Footer-start*/
+.footer-quote {
+	background: url(../img/bg-footer.jpg) no-repeat center;
+	color: #fff;
+}
+.footer-quote blockquote {
+	max-width: 360px;
+	width: 360px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	text-align: center;
+}
 
-/*Footer*/
+.footer-quote p {
+	font-style: italic;
+}
+
+.footer-quote .title-bar {
+	background-color: #fff;
+}
+
+.footer-quote cite {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: .1em;
+}
+
+.footer {
+	width: 100%;
+	background-color: #000;
+}
+
+.footer li p, .contato li {
+	color: #fff;
+}
+
+.contato li {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.footer li h3{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 25px;
+	margin: 15px 0;
+	color: #fec63e;
+}
+
+.footer li h3:after {
+	content: "";
+	display: block; 
+	background-color: #fec63e;
+	height: 3px;
+	width: 70px;
+	margin: 4px 0;
+}
+
+.redes-sociais li {
+	border: #fec63e solid 3px;
+}
+
+.redes-sociais img {
+	margin: 0 auto;
+}
+
+.direitos {
+	color: #000;
+	background-color: #fec63e;
+	height: 60px;
+	padding: 17px 0;
+	margin-top: 20px;
+}
+
+.direitos p {
+	margin-left: 10px;
+}
+/*Footer-end*/
