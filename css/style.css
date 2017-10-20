@@ -38,6 +38,7 @@ p {
 }
 
 .subtitulo {
+	text-align: center;
 	font-size: 24px;
 	letter-spacing: .1em;
 	text-transform: uppercase;
@@ -56,6 +57,19 @@ p {
 
 .subtitulo-amarelo:after {
 	background-color: #fec63e;
+}
+
+.sub-bar:after {
+	content: "";
+	display: block; 
+	background-color: #000;
+	height: 3px;
+	width: 70px;
+	margin: 4px auto;
+}
+
+img {
+	display: block;
 }
 /*Geral-end*/
 
@@ -96,7 +110,7 @@ p {
 
 /*Intro Home*/
 .home {
-	margin-top: 86px;
+	margin-top: 82px;
 	background: url("../img/bg.jpg") no-repeat center;
 	background-size: cover;
 	height: 380px;
@@ -219,5 +233,37 @@ p {
 	color: #fff;
 }
 /*Portfolio-home-end*/
+/*Qualidade-home-start*/
+.qualidade {
+	text-align: center;
+	padding-top: 60px;
+}
+
+.qualidade img {
+	margin: 0 auto;
+}
+
+.qualidade ul li {
+	padding: 0 40px;
+}
+
+.qualidade li h3{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 25px;
+	margin: 15px 0;
+}
+
+.qualidade li h3:after {
+	content: "";
+	display: block; 
+	background-color: #000;
+	height: 3px;
+	width: 70px;
+	margin: 4px auto;
+}
+/*Qualidade-home-end*/
 
 /*Footer*/
