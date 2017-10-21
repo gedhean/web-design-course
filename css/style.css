@@ -206,7 +206,7 @@ img {
 
 .call-to-action {
 	text-align: center;
-	padding: 40px;
+	padding-top: 40px;
 	/*padding-bottom: 60px;*/
 	clear: both;
 }
@@ -222,7 +222,7 @@ img {
 	background-color: #000;
 	color: #fec63e;
 	width: 100%;
-	padding-top: 60px;
+	padding: 60px 0 40px 0;
 }
 
 .portfolio ul li:last-child {
@@ -236,7 +236,7 @@ img {
 /*Qualidade-home-start*/
 .qualidade {
 	text-align: center;
-	padding-top: 60px;
+	padding: 60px 0 40px 0;
 }
 
 .qualidade img {
@@ -364,3 +364,75 @@ img {
 	margin-left: 10px;
 }
 /*Footer-end*/
+
+/*Sobre-start*/
+.sobre-intro {
+	margin-top: 82px;
+	text-align: center;
+	padding: 60px 40px;
+	width: 100%;
+	background: url(../img/bg-sobre.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.sobre-intro h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .02em;
+	font-size: 36px;
+	color: white;
+}
+
+.sobre-intro p {
+	margin-top: 10px;
+	color: white;
+}
+
+.sobre-intro h2:after {
+	content: "";
+	display: block; 
+	background-color: #fff;
+	height: 3px;
+	width: 70px;
+	margin: 4px auto;
+}
+
+.sobre {
+	padding-top: 60px;
+}
+
+.sobre h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: .08em;
+	font-weight: bold;
+}
+
+.sobre h3:after {
+	content: "";
+	display: block; 
+	background-color: #000;
+	height: 3px;
+	width: 70px;
+	margin: 6px 0 12px 0;
+}
+
+.sobre p, .valores li {
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: .02em;
+	font-family: Arial;
+}
+
+.historia p {
+	padding-right: 35px;
+}
+
+.valores li {
+	margin-bottom: 4px;
+}
+
+.equipe {
+	margin-top: 40px;
+}
+/*Sobre-end*/
