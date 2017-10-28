@@ -1,2 +1,6 @@
 # web-design-course
-curso de web design origamid
+
+Projeto do Curso Completo de Web Design da Origamid.
+
+Ainda está em construção...
+
